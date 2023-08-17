@@ -1,0 +1,96 @@
+/* .boardTable {
+    margin: 0 auto;
+    top: 100%;
+    left: 50%;
+} */
+thead, tbody {
+    margin: 0;
+}
+
+h2 {
+    position: absolute;
+    font-size: 2em;
+    float: left;
+    top: 4vh;
+    left: 30%;
+}
+
+.searchBox {
+    position: relative;
+    top: 7vh;
+    left: 58%;
+}
+#search {
+    width: 180px;
+    height: 20px;
+}
+#button {
+    position: relative;
+    width: 50px;
+    height: 25px;
+    top: 2px;
+}
+
+.write {
+    position: fixed;
+    top: 4.6%;
+    right: 14.5%;
+    color: rgb(137, 137, 137);
+    font-size: 20px;
+    font-weight: bold;
+    transform: translateY(-100%);
+    opacity: 1;
+}
+
+.boardContainer {
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+table {
+    position: absolute;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 40%;
+    border-right:none;
+    border-left:none;
+    border-top:none;
+    border-bottom:none;
+}
+
+th {
+    position: sticky;
+    top: 0;
+}
+
+td, th {
+    padding: 8px;
+    border-bottom: 1px solid #a4a3a5;
+}
+
+.boardTable th.num {
+    border-top: 2px solid #333;
+    width: 50px;
+}
+
+.boardTable th.title {
+    border-top: 2px solid #333;
+    width: 350px;
+}
+
+.boardTable th.author, .boardTable th.date {
+    border-top: 2px solid #333;
+    width: 70px;
+}
+
+.boardTable td.num, .boardTable td.author {
+    text-align: center;
+}
+
+.boardTable td.date {
+    font-size: 14px;
+}
